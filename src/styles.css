@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "'苹方','华文西黑'";
+	font-size: 1rem;
+}
+
+body {
+	/*background: #fff;*/
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+input {
+	font-family: "'苹方','华文西黑'";
+	font-size: 1rem;
+}
+
+.add_icon {
+	float: right;
+	line-height: 2.6rem;
+}
+
+input[type='search'] {
+	background: #fff !important;
+}
+
+.chatlist_container {}
+
+.chatlist_container li:first-child {
+	line-height: 1rem;
+}
+
+.my-headimage {
+	display: inline-block;
+	width: 2.5rem;
+	height: 2.5rem;
+	vertical-align: middle;
+}
+
+.my-headimage img {
+	width: 100%;
+	height: 100%;
+}
+
+.right-txt {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 0.5rem;
+}
+
+.right-txt .chatlist_content {
+	font-size: 0.8rem;
+	padding-top: 1rem;
+}
+
+#popover {
+	min-height: 12rem;
+	width: 6.5rem;
+	right: 1rem;
+	position: relative;
+	right: 0 !important;
+	/*float: right;*/
+	margin-right: 16px;
+	padding-right: 19px;
+}
+
+#popover {
+	top: -18rem !important;
+	left: 70% !important;
+}
+.list_wallet,
+.list_collection,
+.list_setting {
+  margin-top: 1rem;
+}
+.iconfont{
+  font-size: 1.5rem;
+}
+.txt{
+  padding-left: 1rem;
+}

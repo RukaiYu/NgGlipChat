@@ -1,5 +1,5 @@
 {
-  "name": "tiny-ng-glip-app",
+  "name": "ng-glip-chat",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
