@@ -8,23 +8,28 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { ProfileComponent } from './profile/profile.component';
+import { LoginComponent } from './login/login.component';
+import { TabsComponent } from '../shared/components/tabs/tabs.component';
 import { ChatComponent } from './chat/chat.component';
 
+
 @NgModule({
-   declarations: [
-      AppComponent,
-      IndexComponent,
-      ContactsComponent,
-      ProfileComponent,
-      ChatComponent
-   ],
-   imports: [
-      BrowserModule,
-      RouterModule.forRoot(rootRouterConfig)
-   ],
-   providers: [],
-   bootstrap: [
-      AppComponent
-   ]
+  declarations: [
+    AppComponent,
+    IndexComponent,
+    ContactsComponent,
+    ProfileComponent,
+    LoginComponent,
+    TabsComponent,
+    ChatComponent,
+  ],
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(rootRouterConfig)
+  ],
+  providers: [],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }

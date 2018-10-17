@@ -11,7 +11,7 @@ export class ContactService {
   constructor(private _api: ApiService) { }
 
   getContacts(): Observable<Contact> {
-    const requestUrl = `/restapi/v1.0/glip/persons/`;
+    const requestUrl = `/restapi/v1.0/glip/persons/glip-21217845251,glip-4073996291`;
     return this._api.Rc
       .get(requestUrl)
       .map((res: any) => JSON.parse(res['_body']))

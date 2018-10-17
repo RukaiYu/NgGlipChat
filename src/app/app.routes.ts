@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { IndexComponent } from './index/index.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { ProfileComponent } from './profile/profile.component';
+import { LoginComponent } from './login/login.component';
 
 export const rootRouterConfig: Routes = [
   {
@@ -23,7 +24,11 @@ export const rootRouterConfig: Routes = [
   {
     path: 'me',
     component: ProfileComponent,
-  }
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
   // {
   //   path: 'search',
   //   component: SearchComponent

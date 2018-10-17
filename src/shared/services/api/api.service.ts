@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 import RingCentral from 'ringcentral-js-concise';
 
-import config from '../../config';
+import config from '../../../config';
 
 @Injectable({
   providedIn: 'root'

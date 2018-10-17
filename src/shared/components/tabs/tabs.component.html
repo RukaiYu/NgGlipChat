@@ -1,0 +1,8 @@
+<nav class="mui-bar mui-bar-tab">
+  <a class="mui-tab-item" *ngFor="let tab of tabs" [ngClass]="{
+     'mui-active': tab.key === active
+    }" routerLink='{{tab.routerLink}}'>
+    <span class="mui-icon" [ngClass]="tab.iconClass"></span>
+    <span class="mui-tab-label">{{tab.title}}</span>
+  </a>
+</nav>
