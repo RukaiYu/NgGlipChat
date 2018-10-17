@@ -4,9 +4,25 @@
     A Glip client inspired by Angular.
   </p>
   <div class="mui-content-padded">
-    <button id='login' type="button" class="mui-btn mui-btn-block mui-btn-primary">Log In</button>
+    <button id='login' type="button" (onclick)="onLoginButtonClicked($event)" class="mui-btn mui-btn-block mui-btn-primary">Log
+      In</button>
   </div>
   <div class="mui-content-padded oauth-area">
-
+    <div class="popup" id="login-popup">
+      <div class="page">
+        <div class="page-content">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="left"></div>
+              <div class="title">Log In</div>
+              <div class="right"></div>
+            </div>
+          </div>
+          <div class="block">
+            <iframe v-if="showModal" [src]="oauthUri" width="100%" height="600" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
