@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Release
+
+```
+cp src/config.sample.js  src/config.js
+edit src/config.js
+yarn install
+yarn release
+```
+
+Update RingCentral app and change redirect uri to `<your-server>/oauth.html`.
