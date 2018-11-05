@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { LoginComponent } from './login/login.component';
 import { TabsComponent } from '../shared/components/tabs/tabs.component';
 import { ChatComponent } from './chat/chat.component';
+import { OauthComponent } from './login/oauth/oauth.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ChatComponent } from './chat/chat.component';
     LoginComponent,
     TabsComponent,
     ChatComponent,
+    OauthComponent,
   ],
   imports: [
     BrowserModule,
