@@ -3,6 +3,8 @@ import { Contact } from './contact';
 import { Observable } from 'rxjs';
 import { ApiService } from '../api/api.service';
 
+import * as R from 'ramda';
+
 @Injectable({
   providedIn: 'root'
 })

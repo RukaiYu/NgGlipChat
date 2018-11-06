@@ -34,7 +34,7 @@ export const rootRouterConfig: Routes = [
   {
     path: 'login',
     component: LoginComponent,
-    canActivate: [ RouteguardService ]
+    canActivate: [RouteguardService]
   },
   {
     path: 'oauth',
